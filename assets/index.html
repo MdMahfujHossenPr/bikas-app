@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body class="bg-fuchsia-200">
+  
+    <section class="max-w-screen-md min-h-screen mx-auto flex items-center justify-center bg-[red]">
+      <!-- Header Part Here -->
+      <header class="flex flex-col  items-center">
+      <div class="flex justify-center items-center">
+        <img class="absolute xl:96 lg:w-96 md:w-80 " src="/assets/bg.png" alt="">
+        <img class="bottom-20  relative" src="/assets/Group.png" alt="">
+      </div> 
+      <!-- Input Main Part Here -->
+            <div class="bg-white w-full xl:mx-40 lg:mx-36 md:mx-32 h-80 rounded-lg shadow-lg p-8 lg:text-xl md:text-xl sm:text-xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Mobile Number</span>
+                    </label> <br>
+                    <input type="number" placeholder="enter your phone number" class="input mt-2 mb-5 xl:w-full lg:w-full md:w-full border-none h-12 p-5  rounded-full bg-[#F4F5F7]" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">4 Degit Pin</span>
+                    </label> <br>
+                    <input type="password" placeholder="password" class="input mt-2 xl:w-full lg:w-full md:w-full border-none h-12 p-5  rounded-full bg-[#F4F5F7]" required />
+                  </div>
+                  <div class="form-control mt-6">
+                    <button class="btn btn-primary w-full bg-yellow-300 h-12 rounded-full">Login</button>
+                  </div>
+                </form>
+            </div>
+          </header>
+    </section>
+ 
+    </body>
+</html>
